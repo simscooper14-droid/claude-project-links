@@ -5,7 +5,7 @@ const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/edit`
 
 const PROJECTS: [string, string][] = [
   ['Review Agent', 'unbiased proofing of artifacts, docs, graphics, emails and posts for typos and errors'],
-  ['Claude Usage Agent', 'weekly limit, heavy-usage alerts, ways to make work cheaper'],
+  ['Claude Usage Agent', "Cooper's Claude-maxing hub: Claude-wide changes for every project (mods, skills, setup, model choice), the weekly limit, heavy-usage alerts, ways to make work cheaper"],
   ['Device Productivity/Efficiency Agent', 'Mac, iPhone, Chrome and Claude app speed, storage and tidiness'],
   ['Security Agent', 'vets new skills, connectors, plugins, scheduled tasks, device access, and suspicious messages'],
   ["Cooper's Personal Life Agent", 'health, weight loss, money, bills, home, calendar, about-me profile'],
@@ -13,7 +13,8 @@ const PROJECTS: [string, string][] = [
 ]
 
 const ROUTES = [
-  'Finished artifacts or anything that needs proofing for typos or errors -> Review Agent (a fresh, unbiased read).',
+  'Every finished artifact (doc, page, graphic, deck, email or post meant for others) -> Review Agent for proofing before you call it done. Also anything else that needs a check for typos or errors. Review gives a fresh, unbiased read.',
+  'Ideas or changes meant for all of Claude (new mods, skills, setup, model or usage tweaks across projects) -> Claude Usage Agent.',
   'A new skill, connector, plugin, scheduled task or device/folder access in any project -> Security Agent.',
   'Work that is burning a lot of usage (long threads, repeated retries, big scans) -> Claude Usage Agent.',
   'Rockhouse dates or commitments that affect Cooper personally -> Personal Life Agent.',
