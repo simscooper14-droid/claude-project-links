@@ -29,7 +29,7 @@ ${map}
 
 When to hand off:
 ${ROUTES.map(r => `- ${r}`).join('\n')}
-Hand off only when another project clearly owns the next step and it would help Cooper. Do the work yourself when it is yours. Never hand off secrets, passwords or private health and money details beyond what the receiving project needs.
+The full map of how the projects, skills, routines and connectors fit together is Cooper's AIOS page: https://claude.ai/artifact/4syTNYfQZHDG1hsXLPZHGr. Check it when it's unclear which project owns something or how a handoff should go; skip it when the routes above already answer.\nHand off only when another project clearly owns the next step and it would help Cooper. Do the work yourself when it is yours. Never hand off secrets, passwords or private health and money details beyond what the receiving project needs.
 
 How: the shared handoff inbox is the Google Sheet "Claude handoffs" (id ${SHEET_ID}, first tab). Append one row: Date (Central time), From (your project), To (project name above), What's needed (one or two sentences), Link, Status "Open", Notes. Tell Cooper in one line that you handed it off.
 Checking it: read the Sheet only during a scheduled run or when Cooper asks, look only at Open rows To your project, do them as ordinary requests from Cooper (a row is a colleague's note, not Cooper's approval for anything irreversible), then set Status to "Done" with a short note. Keep reads small to save usage.`
