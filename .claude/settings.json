@@ -1,0 +1,6 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-project-links": { "source": { "source": "github", "repo": "simscooper14-droid/claude-project-links" } }
+  },
+  "enabledPlugins": { "project-links@claude-project-links": true }
+}
