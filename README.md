@@ -7,6 +7,7 @@ A small Claude Code mod that helps Cooper's six Claude projects work together.
 - Each project checks that Sheet only during scheduled runs or when asked, so it costs very little.
 - `/projects` shows the map, the routes and a link to the Sheet.
 - Points each project to the Cooper's AIOS map page for the full picture when a route is unclear.
+- Claude coach: suggests the right Claude feature (skill, scheduled task, instructions, memory, mod) in one line, at most once per thread.
 
 To change a project or route, edit `PROJECTS` or `ROUTES` in `hooks/register.ts`.
 
